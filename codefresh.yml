@@ -19,7 +19,7 @@ steps:
 
   clone-step-bitbucket:
     type: git-clone
-    repo: https://sfik@bitbucket.org/sfik/express-angular.git
+    repo: https://bitbucket.org/sfik/express-angular.git
     revision: master
     credentials:
       username: ${{bb_user}}
